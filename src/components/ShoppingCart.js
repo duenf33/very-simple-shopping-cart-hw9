@@ -1,9 +1,8 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 const ShoppingCart = () => {
 	const shoppingCart = useSelector((state) => state.shoppingCart);
-	const dispatch = useDispatch();
 
 	return (
 		<div>

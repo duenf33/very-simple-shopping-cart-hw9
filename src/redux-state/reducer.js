@@ -1,6 +1,7 @@
 import { ADD_TO_CART_ACTION } from "./actions";
 
 export const reducer = (state, action) => {
+	console.log(state);
 	if (action.type === ADD_TO_CART_ACTION) {
 		const newItem = action.payload.newItem;
 

@@ -8,7 +8,6 @@ const initialState = {
 	shoppingCart: {
 		items: [],
 	},
-	user: undefined,
 };
 
 export const reduxStore = createStore(

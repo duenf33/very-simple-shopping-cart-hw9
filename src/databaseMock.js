@@ -16,4 +16,27 @@ const products = [
 	},
 ];
 
+const users = [
+	{
+		id: "1",
+		userName: "JD",
+		name: "John Doe",
+		password: "password",
+	},
+	{
+		id: "2",
+		userName: "TJ",
+		name: "Tom Jared",
+		password: "password",
+	},
+	{
+		id: "3",
+		userName: "OP",
+		name: "Oscar Peters",
+		password: "password",
+	},
+];
+
 export const fetchItems = () => products;
+
+export const fetchUsers = () => users;
